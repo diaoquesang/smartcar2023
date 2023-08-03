@@ -49,12 +49,8 @@ for imgpath in imglist:
 
     mask = cv.inRange(img_hsv, np.array([43,60,90]), np.array([62, 255, 255]))
     # 取色器(以下两行仅保留一行注释，若第一行被注释则为快速展示模式，若第二行被注释则为调整阈值模式)
-    cv.setMouseCallback("img", onmouse)
-    # cv.imshow("img", img)
-
-    m=mask.copy()
-    m=cv.Canny(m,100,200)
-    cv.imshow("123", m)
+    # cv.setMouseCallback("img", onmouse)
+    cv.imshow("img", img)
 
     div = np.array(img)
     div[mask == 255] = [0, 0, 255]
