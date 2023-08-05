@@ -89,7 +89,7 @@ def mid(follow, mask, img):
 
     error = (half - mid_output) / width * 640  # 计算图片中点与指定提取中点的误差
 
-    return follow, error, img  # error为正数右转,为负数左转
+    return follow, error, img  # error为正数左转右转,为负数右转
 
 
 n = -1
