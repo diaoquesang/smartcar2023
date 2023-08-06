@@ -5,4 +5,4 @@
 🤣3.follow.py:基于分割线递归拟合中线的智能车巡线方案调试程序
 🤣4.newfollow.py:基于赛道追踪拟合中线的智能车巡线方案调试程序
 
-![img](https://github.com/diaoquesang/smartcar2023/blob/main/HSV.png)
+![img](https://github.com/diaoquesang/smartcar2023/blob/main/HSV.jpg)
